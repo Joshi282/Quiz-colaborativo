@@ -22,6 +22,11 @@ public class Quiz_4 {
         
         System.out.print("Ingresa un número: ");
         int numero = input.nextInt();
+        if (numero % 2 == 0) {
+            System.out.println("El número " + numero + " es PAR.");
+        } else {
+            System.out.println("El número " + numero + " es IMPAR.");
+        }
     }
     
 }
